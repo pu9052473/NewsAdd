@@ -1,7 +1,7 @@
-import { LiveGames } from "./component/LiveGames";
+import { TrendingNews } from "./component/Articles";
 
 function App() {
-  return <LiveGames />;
+  return <TrendingNews />;
 }
 
 export default App;
