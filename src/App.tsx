@@ -1,7 +1,11 @@
-import { TrendingNews } from "./component/Articles";
+import { Favourites } from "./component/Favourites";
 
 function App() {
-  return <TrendingNews />;
+  return (
+    <div className="h-full w-full border border-blue-500">
+      <Favourites />
+    </div>
+  );
 }
 
 export default App;
